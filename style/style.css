@@ -18,10 +18,20 @@ div {
 }
 .bg {
     top: 0;
-    right: 0;
     height: 100%;
     position: fixed;
-    z-index: -1;
+    z-index: -2;
+}
+.row {
+    display: inline-block;
+}
+.right {
+    float: right;
+    right: 0;
+}
+.left {
+    float: left;
+    left: 0;
 }
 
 /* color */
