@@ -5,6 +5,45 @@ body {
     margin: 0;
     padding: 0;
 }
+div {
+    margin: 0;
+}
 .container {
     margin: 30px 100px 40px;
+}
+.box {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
+}
+.bg {
+    top: 0;
+    right: 0;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+/* color */
+.black {
+    color: #1F1F21;
+    font-weight: bold;
+}
+.grey {
+    color: #B8B8B8;
+}
+.white {
+    color: white;
+}
+.bggreen {
+    background-color: #88D498;
+}
+.bgyellow {
+    background-color: #F7D64B;
+}
+.bggrey {
+    background-color: #B8B8B8;
+}
+.bgwhite {
+    background-color: white;
 }
