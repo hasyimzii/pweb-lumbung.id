@@ -5,16 +5,37 @@ body {
     margin: 0;
     padding: 0;
 }
-div {
-    margin: 0;
-}
 .container {
     margin: 30px 100px 40px;
+}
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+p {
+    margin: 5px 0 25px 0;
+}
+a {
+    text-decoration: none;
 }
 .box {
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
+}
+.inputLog {
+    width: 500px;
+    height: 30px;
+    padding-left: 20px;
+    margin: 10px 0;
+    border: 2px solid #B8B8B8;
+    border-radius: 5px;
+}
+.inputText {
+    width: 600px;
+    height: 30px;
+    padding-left: 20px;
+    margin: 10px 0;
 }
 .bg {
     top: 0;
@@ -22,22 +43,44 @@ div {
     position: fixed;
     z-index: -2;
 }
+.login {
+    height: 600px;
+    margin-top: 60px;
+}
+.button {
+    padding: 10px 70px;
+    margin: 8px 0;
+}
+
+/* flex */
 .row {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
 }
-.right {
-    float: right;
-    right: 0;
+.col {
+    display: flex;
+    flex-direction: column;
 }
-.left {
-    float: left;
-    left: 0;
+.center {
+    justify-content: center;
+}
+.between {
+    justify-content: space-between;
+}
+.around {
+    justify-content: space-around;
+}
+.algCenter {
+    align-items: center;
 }
 
 /* color */
+.bold {
+    
+    font-weight: bold;
+}
 .black {
     color: #1F1F21;
-    font-weight: bold;
 }
 .green {
     color: #88D498;
@@ -59,4 +102,9 @@ div {
 }
 .bgwhite {
     background-color: white;
+}
+
+/* image */
+#logoLog {
+    height: 90px;
 }
