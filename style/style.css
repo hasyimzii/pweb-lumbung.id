@@ -60,3 +60,69 @@ div {
 .bgwhite {
     background-color: white;
 }
+/* halaman_admin_penjual */
+.sidenav {
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+}
+.sidenav .side {
+    margin-top: 50px;
+    position: relative;
+}
+a.button {
+    display: block;
+    color: #B8B8B8;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+a.button#penjual {
+    background-color: #88D498;
+    color: white;
+    border: none;
+}
+a.button.active { 
+    background-color: #88D498;
+    color: white;
+}
+  
+a.button:hover:not(.active) { 
+    background-color: #88D498;
+    color: white;
+}
+
+
+/* tabel */
+.container_t {
+    margin-left: 20%;
+    padding:1px 16px;
+    height:1000px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+    opacity: 0,5;
+}
+
+th {
+  background-color:#88D498;
+  color: white;
+}
+select {
+    border: none;
+    background: none;
+}
