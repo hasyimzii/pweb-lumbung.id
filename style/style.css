@@ -8,6 +8,9 @@ body {
 .container {
     margin: 30px 100px 40px;
 }
+nav {
+    padding: 15px;
+}
 h1 {
     margin: 0;
     font-size: 40px;
@@ -21,7 +24,7 @@ a {
 .box {
     border: none;
     border-radius: 5px;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
 }
 .inputLog {
     width: 500px;
@@ -30,6 +33,14 @@ a {
     margin: 10px 0;
     border: 2px solid #B8B8B8;
     border-radius: 5px;
+}
+.inputNav {
+    width: 400px;
+    height: 30px;
+    margin: 0 50px;
+    padding: 5px 50px;
+    text-align: center;
+    font-size: 20px;
 }
 .inputText {
     width: 600px;
@@ -103,6 +114,9 @@ a {
 .bgwhite {
     background-color: white;
 }
+::placeholder {
+    color: #B8B8B8;
+}
 
 /* halaman_admin_penjual */
 .sidenav {
@@ -172,6 +186,56 @@ select {
 }
 
 /* image */
-#logoLog {
+.logoLog {
     height: 90px;
 }
+.logoNav {
+    height: 50px;
+}
+.search {
+    background: url(../img/search-icon.svg) no-repeat scroll 20px 6px;
+    background-size: 20px;
+}
+.iconNav {
+    width: 25px;
+}
+.profile {
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 100%;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* dropdown */
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 120px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+      color: white;
+    background-color: #88D498;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
