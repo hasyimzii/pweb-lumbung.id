@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
+    <!-- navbar -->
     <nav class="row algCenter around box bgwhite" style="width: 100%;">
         <img src="../img/lumbung-id-flat.png" class="logoNav">
 
@@ -30,5 +31,84 @@
             
         </div>
     </nav>
+
+    <!-- sidebar -->
+    <div class="sidenav bgwhite">
+        <div class="side">
+          <a href="#penjual" class="button" id="penjual">Penjual</a>
+          <a href="#customer" class="button">Customer</a>
+          <a href="#order" class="button">Order</a>
+          <a href="#artikel" class="button">Artikel</a>
+        </div>
+    </div>
+
+    <!-- body -->
+    <div class="container_t">
+        <form action="table.html">
+            <div class="row between">
+                <!-- header -->
+                <h2 class="black bold">Tambah Artikel</h2>
+            </div>
+            <!-- input text -->
+            <div class="row algCenter">
+                <div style="margin-right: 50px;">
+                    <label for="nama" class="black bold">Judul Artikel</label> <br>
+                    <input type="text" name="nama" class="box inputShort black" placeholder="Tulis judul...">
+                </div>
+                <div>
+                    <label for="alamat" class="black bold">Kategori Artikel</label> <br>
+                    <select class="box bgwhite grey">
+                        <div class="dropdown-content">
+                            <option class="bgwhite grey">Kesehatan</option>
+                            <option class="bgwhite grey">Pertanian</option>
+                            <option class="bgwhite grey">Peternakan</option>
+                        </div>
+                    </select>
+                </div>
+            </div>
+
+            <hr class="grey">
+            <!-- image label -->
+            <div id="imageLabel">
+                <label for="gambar" class="black bold">Gambar Artikel</label> <br>
+            </div>
+
+            <div class="row">
+                <!-- image -->
+                <div class="imageOutput box bgwhite">
+                    <input type="image" src="#" alt="">
+                </div>
+                
+                <div>
+                    <!-- notes -->
+                    <i class="grey">
+                        Ukuran optimal 300 x 300 <br>
+                        dengan Besar file : Maksimum 10 Megabytes. <br>
+                        Ekstensi file yang diperbolehkan : JPG, JPEG, PNG. <br>
+                    </i>
+
+                    <!-- submit image -->
+                    <div class="submitImage box bggreen">
+                        <input type="file" name="file" class="fileImage">
+                        <label for="file" class="textImage white"> Pilih Foto</label>
+                    </div>
+                </div>
+            </div> <br>
+            
+            <div>
+                <label for="deskripsi" class="black bold">Deskripsi Artikel</label> <br>
+                <textarea name="deskripsi" class="desc box black"></textarea> <br>
+            </div>
+            <br><br>
+
+            <div class="row algCenter" style="float: right;">
+                <!-- cancel -->
+                <a href=""><button class="button box bgwhite grey" style="margin-right: 20px;">Cancel</button></a>
+                <!-- submit -->
+                <button type="submit" class="button box bggreen white">Publish</button> 
+            </div>
+                     
+        </form>
+    </div>
 </body>
 </html>
