@@ -10,6 +10,7 @@ body {
 }
 nav {
     padding: 15px;
+    position: fixed;
 }
 h1 {
     margin: 0;
@@ -124,15 +125,17 @@ a {
     color: #B8B8B8;
 }
 
-/* halaman_admin_penjual */
+/* halaman_admin */
 .sidenav {
     margin: 0;
+    margin-top: 30px;
     padding: 0;
     width: 20%;
     position: fixed;
     height: 100%;
     overflow: auto;
     text-align: center;
+    z-index: -1;
 }
 .sidenav .side {
     margin-top: 50px;
@@ -144,22 +147,27 @@ a.button {
     padding: 8px 16px;
     text-decoration: none;
     cursor: pointer;
-
+}
+a.button:hover {
+    background-color: #88D498;
+    color: white;
 }
 a.button#penjual {
     background-color: #88D498;
     color: white;
     border: none;
 }
-a.button.active { 
+a.button#customer {
     background-color: #88D498;
     color: white;
+    border: none;
 }
-  
-a.button:hover:not(.active) { 
+a.button#order {
     background-color: #88D498;
     color: white;
+    border: none;
 }
+
 
 
 /* tabel */
@@ -174,7 +182,7 @@ table {
   }
 th, td {
   text-align: left;
-  padding: 8px;
+  padding:  px;
 }
 
 tr:nth-child(even){
@@ -190,7 +198,10 @@ select {
     border: none;
     background: none;
 }
-
+select.opsi {
+    font-size: 12pt;
+    margin: 0px;
+}
 /* image */
 .logoLog {
     height: 90px;
