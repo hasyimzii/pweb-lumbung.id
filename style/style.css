@@ -173,8 +173,11 @@ a.button#order {
     color: white;
     border: none;
 }
-
-
+a.button#artikel {
+    background-color: #88D498;
+    color: white;
+    border: none;
+}
 
 /* tabel */
 .container_t {
@@ -187,7 +190,7 @@ table {
   }
 th, td {
   text-align: left;
-  padding:  px;
+  padding: 10px;
 }
 
 tr:nth-child(even){
@@ -198,6 +201,7 @@ tr:nth-child(even){
 th {
   background-color:#88D498;
   color: white;
+  height: 45px;
 }
 select {
     border: none;
@@ -206,6 +210,11 @@ select {
 select.opsi {
     font-size: 12pt;
     margin: 0px;
+    padding: 7px 0px;
+    width: 80px;
+}
+div.custom-select {
+    width: 20px;
 }
 /* image */
 .logoLog {

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Penjual</title>
+    <title>Data Artikel</title>
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
@@ -32,28 +32,30 @@
     <!-- sidebar -->
     <div class="sidenav bgwhite">
         <div class="side">
-          <a href="halaman-admin-customer.html" class="button" id="penjual">Penjual</a>
+          <a href="halaman-admin-penjual.html" class="button">Penjual</a>
           <a href="halaman-admin-customer.html" class="button">Customer</a>
           <a href="halaman-admin-order.html" class="button">Order</a>
-          <a href="#artikel" class="button">Artikel</a>
+          <a href="halaman-admin-artikel.html" class="button" id="artikel">Artikel</a>
         </div>
     </div>
     <div class="container_t">
       <!-- Judul -->
-      <h2>Data Penjual</h2>
+      <h2>Data Artikel</h2>
       <!-- tabel -->
       <table class="box">
         <tr>
           <th>Id</th>
-          <th>Nama</th>
-          <th>Alamat</th>
-          <th>Tanggal Daftar</th>
+          <th>Judul</th>
+          <th>Deskripsi</th>
+          <th>Gambar</th>
+          <th>Tanggal Publikasi</th>
           <th>Opsi</th>
         </tr>
         <tr>
           <td>1</td>
-          <td>Andi</td>
-          <td>Jl. Anggrek 12, Jember</td>
+          <td>Jaga Kesehatan</td>
+          <td>Di masa sekarang</td>
+          <td>asd.jpg</td>
           <td>12 Maret 2020</td>
           <td>
             <div class="custom-select" >
@@ -67,8 +69,9 @@
         </tr>
         <tr>
           <td>2</td>
-          <td>Andi</td>
-          <td>Jl. Anggrek 12, Jember</td>
+          <td>Jaga Kesehatan</td>
+          <td>Di masa sekarang</td>
+          <td>asd.jpg</td>
           <td>12 Maret 2020</td>
           <td>
             <div class="custom-select" >
@@ -82,8 +85,9 @@
         </tr>
         <tr>
           <td>3</td>
-          <td>Andi</td>
-          <td>Jl. Anggrek 12, Jember</td>
+          <td>Jaga Kesehatan</td>
+          <td>Di masa sekarang</td>
+          <td>asd.jpg</td>
           <td>12 Maret 2020</td>
           <td>
             <div class="custom-select" >
@@ -94,11 +98,27 @@
               </select>
             </div>
           </td>
-      </tr>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Jaga Kesehatan</td>
+          <td>Di masa sekarang</td>
+          <td>asd.jpg</td>
+          <td>12 Maret 2020</td>
+          <td>
+            <div class="custom-select" >
+              <select class="opsi">
+                <option value="0">Opsi</option>
+                <option value="1">Pilihan 1</option>
+                <option value="2">Pilihan 2</option>
+              </select>
+            </div>
+          </td>
+        </tr>
       </table>
     </div>
     <footer class="box bgwhite grey">
       &#169 copyright 2020
-    </footer>
+  </footer>
 </body>
 </html>
