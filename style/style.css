@@ -392,13 +392,47 @@ select {
     background-color: #4CAF50;
     color: white;
     }
+
 /* display artikel */
-.grid-container {
-    border: 2px solid slateblue;
+.line {
+    width: 96%;
+    margin-left: 0px;
+}
+.wrapper-flex {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
 }
 .a1 {
-    border: 2px solid springgreen;
-    margin: 1%;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    width: 280px;
+    height: 430px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    cursor: pointer;
 }
+.description {
+    margin-top: 10px;
+    text-align: left;
+}
+.description p {
+    margin: 5px 10px;
+}
+.kat-a {
+    font-size: 14px;
+}
+.jud-a {
+    font-size: 30px;
+}
+.art {
+    font-size: 14px;
+}
+.price {
+    font-size: 26px;
+}
+
+
 
