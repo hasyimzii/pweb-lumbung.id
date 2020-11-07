@@ -123,6 +123,9 @@ hr {
 .green {
     color: #88D498;
 }
+.yellow {
+    color: #F7D64B;
+}
 .grey {
     color: #B8B8B8;
 }
@@ -335,6 +338,12 @@ select {
 .card {
     padding: 10px 35px;
     margin-bottom: 50px;
+}
+.payCard {
+    width: 350px;
+    margin: 40px 0 0 55px;
+    padding: 20px;
+    height: fit-content;
 }
 
 /* image form */
