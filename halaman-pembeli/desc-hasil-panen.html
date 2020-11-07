@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Lumbung.id</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
     <!-- navbar -->
@@ -32,66 +32,69 @@
         </div>
     </nav><br>
 
-    <div class="row">
-        <div class="col">
-            <img src="../img/beras1.png">
-            <div class="row">
-                <img src="../img/beras1.png">
-                <img src="../img/beras1.png">
-            </div>
-        </div>
-
-        <div class="col">
-            <h2>Beras</h2>
-            <i>KIOSK BERAS</i>
-
-            <hr>
-
-            <div class="row">
-                <p>harga</p>
-                <p>Rp. 11.000</p>
-            </div>
-
-            <hr>
-
-            <div class="row">
-                <p>Info<br>Barang</p>
-                <div class="col">
-                    <p>Berat</p>
-                    <p>700gr</p>
-                </div>
-                <div class="col">
-                    <p>Kategori</p>
-                    <p>Olahan</p>
-                </div>
-            </div>
-
-            <hr>
-
+    <div class="container">
+        <div class="row">
             <div class="col">
-                <p>Deskripsi</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                </p>
+                <img src="../img/beras1.png" class="box imageBox" width="300px">
+                <div class="row between" style="margin-top: 20px;">
+                    <img src="../img/beras1.png" class="box imageBox" width="70px">
+                    <img src="../img/beras1.png" class="box imageBox" width="70px">
+                    <img src="../img/beras1.png" class="box imageBox" width="70px">
+                </div>
+            </div>
+
+            <div class="col" style="margin-left: 50px;">
+                <h2 class="black bold list">Beras</h2>
+                <i class="green list" style="font-size: 15px;">KIOSK BERAS</i>
+
+                <hr>
+
+                <div class="row list">
+                    <p class="grey bold">Harga</p>
+                    <p class="green bold" style="font-size: 26px; margin-left: 20px;">Rp. 11.000</p>
+                </div>
+
+                <hr>
+
+                <div class="row">
+                    <p class="grey bold">Info<br>Barang</p>
+                    <div class="col" style="margin-left: 20px;">
+                        <p class="grey" style="margin-bottom: 5px;">Berat</p>
+                        <p class="grey" style="margin-bottom: 5px;">700gr</p>
+                    </div>
+                    <div class="col" style="margin-left: 20px;">
+                        <p class="grey" style="margin-bottom: 5px;">Kategori</p>
+                        <p class="grey" style="margin-bottom: 5px;">Olahan</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="col">
+                    <p class="grey bold list">Deskripsi</p>
+                    <p class="grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+
             </div>
 
         </div>
 
-    </div>
-
-    <div class="row">
-        <h2>Jumlah Pesan</h2>
-        <form action="">
-            <button>-</button>
-            <input type="text" placeholder="10">
-            <button>+</button>
-            
-            <a href="#"><button type="submit">+ Keranjang</button></a>
-        </form>
+        <div class="row algCenter" style="float: right;">
+            <p class="black bold" style="font-size: 23px;">Jumlah Pesan</p>
+            <form action="" class="row algCenter">
+                <button class="butCount box bggrey row algCenter"><img src="../img/min.svg" width="17px"></button>
+                <input type="text" placeholder="10" class="inputCount box bgwhite black bold">
+                <button class="butCount box bggreen"><img src="../img/plus.svg"  width="17px"></button>
+                
+                <a href="#"><button type="submit" class="button box bgyellow white bold" style="padding: 10px 25px; margin-left: 10px;">+ Keranjang</button></a>
+            </form>
+        </div>
     </div>
 
     <footer class="box bgwhite grey">

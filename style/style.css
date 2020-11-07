@@ -76,8 +76,12 @@ a {
     margin-top: 60px;
 }
 .button {
+    font-size: 20px;
     padding: 10px 70px;
     margin: 8px 0;
+}
+hr {
+    width: 100%;
 }
 
 /* flex */
@@ -103,6 +107,9 @@ a {
 }
 .algCenter {
     align-items: center;
+}
+.list {
+    margin-bottom: 10px;
 }
 
 /* color */
@@ -353,6 +360,25 @@ select {
 .textImage {
     margin: 10px 140px;
 }
+.imageBox {
+    padding: 10px;
+}
+
+/* counter */
+.butCount {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    padding: 12px;
+    font-weight: 900;
+}
+.inputCount {
+    width: 40px;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
 /* halaman-artikel-rincian */
 .box_artikel {
     margin-top: 5%;
