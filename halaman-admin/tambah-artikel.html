@@ -8,7 +8,7 @@
 <body>
     <!-- navbar -->
     <nav class="row algCenter around box bgwhite">
-        <img src="../img/lumbung-id-flat.png" class="logoNav">
+        <a href="../halaman-admin/halaman-admin-artikel.html"><img src="../img/lumbung-id-flat.png" class="logoNav"></a>
 
         <input type="text" class="search box inputNav grey" placeholder="Cari sesuatu...">
 
@@ -20,9 +20,8 @@
             <div class="dropdown">
                 <button class="dropbtn black bold">Budi Setiawan</button>
                 <div class="dropdown-content box bgwhite">
-                    <a href="#" class="black bold">Akun</a>
                     <a href="#" class="black bold">Pengaturan</a>
-                    <a href="../index.html" class="black bold">Keluar</a>
+                    <a href="../login/login.html" class="black bold">Keluar</a>
                 </div>
             </div>
             
@@ -41,7 +40,7 @@
 
     <!-- body -->
     <div class="container_t">
-        <form action="table.html">
+        <form action="halaman-admin-artikel.html">
             <div class="row between">
                 <!-- header -->
                 <h2 class="black bold">Tambah Artikel</h2>
@@ -95,19 +94,15 @@
                 <label for="deskripsi" class="black bold">Deskripsi Artikel</label> <br>
                 <textarea name="deskripsi" class="desc box black"></textarea> <br>
             </div>
-            <br><br>
 
             <div class="row algCenter" style="float: right;">
                 <!-- cancel -->
-                <a href=""><button class="button box bgwhite grey" style="margin-right: 20px;">Cancel</button></a>
+                <a href="halaman-admin-artikel.html"><button class="button box bgwhite grey" style="margin-right: 20px;">Cancel</button></a>
                 <!-- submit -->
-                <button type="submit" class="button box bggreen white">Publish</button> 
+                <button type="submit" class="button box bggreen white">Publish</button>
             </div>
                      
         </form>
     </div>
-    <footer class="box bgwhite grey">
-        &#169 copyright 2020
-    </footer>
 </body>
 </html>

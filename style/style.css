@@ -18,9 +18,8 @@ nav {
 footer {
     padding: 20px 100px;
     width: 100%;
-    height: 4%;
-    position: fixed;
-    bottom: 0px ;
+    margin-top: 30px;
+    z-index: 10;
 }
 h1 {
     margin: 0;
@@ -223,7 +222,7 @@ a.link {
 
 /* tabel */
 .container_t {
-    margin: 50px 100px 40px 23%;
+    margin: 50px 100px 100px 23%;
     padding:1px 16px;
 }
 table {

@@ -8,12 +8,12 @@
 <body>
     <!-- navbar -->
     <nav class="row algCenter around box bgwhite">
-        <img src="../img/lumbung-id-flat.png" class="logoNav">
+        <a href="desc-penjual.html"><img src="../img/lumbung-id-flat.png" class="logoNav"></a>
 
         <input type="text" class="search box inputNav grey" placeholder="Cari sesuatu...">
 
         <div class="row algCenter end" style="width: 80px; margin-left: 100px;">
-            <a href=""><img src="../img/ringing.svg" class="iconNav"></a>
+            <a href="pesanan-baru.html"><img src="../img/ringing.svg" class="iconNav"></a>
         </div>
 
         <div class="row algCenter around" style="width: 170px; margin-right: 20px;">
@@ -24,7 +24,7 @@
                 <div class="dropdown-content box bgwhite">
                     <a href="#" class="black bold">Akun</a>
                     <a href="#" class="black bold">Pengaturan</a>
-                    <a href="../index.html" class="black bold">Keluar</a>
+                    <a href="../login/login.html" class="black bold">Keluar</a>
                 </div>
             </div>
             
@@ -32,53 +32,55 @@
     </nav><br>
 
     <h2>Tambah Produk</h2>
-    <div class="col">
-        <p>Upload Produk</p>
-        <p>Format gambar .jpg .jpeg .png dan ukuran minimum 300 x 300px (Untuk gambar optimal gunakan ukuran minimum 700 x 700 px)</p>
-
-        <div class="row">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+    <form action="desc-penjual.html">
+        <div class="col">
+            <p>Upload Produk</p>
+            <p>Format gambar .jpg .jpeg .png dan ukuran minimum 300 x 300px (Untuk gambar optimal gunakan ukuran minimum 700 x 700 px)</p>
+    
+            <div class="row">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+    
+            <button type="submit">+ Pilih Gambar Produk</button>
         </div>
-
-        <button type="submit">+ Pilih Gambar Produk</button>
-    </div>
-
-    <div class="col">
-        <p>Informasi Produk</p>
-        <div class="row">
-            <p>Nama Produk</p>
-            <input type="text">
+    
+        <div class="col">
+            <p>Informasi Produk</p>
+            <div class="row">
+                <p>Nama Produk</p>
+                <input type="text">
+            </div>
+            <div class="row">
+                <p>Harga Satuan (Rp)</p>
+                <input type="text">
+            </div>
+            <div class="row">
+                <p>Berat (kg)</p>
+                <input type="text">
+            </div>
+            <div class="row">
+                <p>Kategori Produk</p>
+                <select class="box inputShort bgwhite grey">
+                    <option class="grey">Pilih kategori</option>
+                    <option class="black">Kesehatan</option>
+                    <option class="black">Pertanian</option>
+                    <option class="black">Peternakan</option>
+                </select>
+            </div>
+            <div class="row">
+                <p>Deskripsi Produk</p>
+                <textarea></textarea>
+            </div>
         </div>
+    
         <div class="row">
-            <p>Harga Satuan (Rp)</p>
-            <input type="text">
+            <a href="desc-penjual.html"><button>Cancel</button></a>
+            <button type="submit">Simpan</button>
         </div>
-        <div class="row">
-            <p>Berat (kg)</p>
-            <input type="text">
-        </div>
-        <div class="row">
-            <p>Kategori Produk</p>
-            <select class="box inputShort bgwhite grey">
-                <option class="grey">Pilih kategori</option>
-                <option class="black">Kesehatan</option>
-                <option class="black">Pertanian</option>
-                <option class="black">Peternakan</option>
-            </select>
-        </div>
-        <div class="row">
-            <p>Deskripsi Produk</p>
-            <textarea></textarea>
-        </div>
-    </div>
-
-    <div class="row">
-        <a href=""><button>Cancel</button></a>
-        <a href=""><button>Simpan</button></a>
-    </div>
+    </form>
 
     <footer class="box bgwhite grey">
         &#169 copyright 2020
