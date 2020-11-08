@@ -434,5 +434,11 @@ select {
     font-size: 26px;
 }
 
+/* on */
+a#on {
+    background-color: #88D498;
+    color: white;
+    border: none;
+}
 
 
