@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Lumbung.id</title>
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
     <!-- navbar -->
@@ -14,7 +14,7 @@
 
         <div class="row algCenter between" style="width: 80px; margin-left: 100px;">
             <a href=""><img src="../img/article.svg" class="iconNav"></a>
-            <a href=""><img src="../img/shopping-cart.svg" class="iconNav"></a>
+            <a href=""><img src="../img/shopping-cart-g.svg" class="iconNav"></a>
         </div>
 
         <div class="row algCenter around" style="width: 170px; margin-right: 20px;">
@@ -32,83 +32,83 @@
         </div>
     </nav><br>
 
-    <div class="row">
-        <div class="col">
-            <h2>Keranjang</h2>
-
-            <form action="">
-                <p>Alamat Pengiriman</p>
-
-                <div class="col">
-                    <p>Budi Setiawan</p>
-                    <p>082156891821</p>
-                    <p>Jalan Soekarno - Hatta No. 87 Malang <br>
-                        Sumbersari, Kota Malang, 65145</p>
-                </div>
-
-                <hr>
-
-                <div class="col">
-                    <p>Nama Toko</p>
-                    <p>Jember Selatan</p>
-                </div>
-
-                <div class="row">
-                    <input type="checkbox">
-                    <img src="../img/beras1.png">
-                    <div class="col">
-                        <p>Beras</p>
-                        <p>Harga produk</p><i> / per</i>
-                        <p>2 barang (10kg)</p>
-                    </div>
-                    <div class="row">
-                        <button>-</button>
-                        <input type="text" placeholder="10">
-                        <button>+</button>
-                        
-                        <a href="#"><button type="submit">+ Keranjang</button></a>
-                    </div>
-                </div>
-                <hr>
-
-            </form>
-        </div>
-
-        <div class="col">
-            <p>Pilih Durasi</p>
-            <select>
-                <option>Pengiriman</option>
-                <option>Pengiriman</option>
-            </select>
-
-            <p>Pilih Metode</p>
-            <select>
-                <option>Pembayaran</option>
-                <option>Pembayaran</option>
-            </select>
-
+    <div class="container">
+        <div class="row between">
             <div class="col">
-                <p>Ringkasan belanja</p>
-                <div class="row">
-                    <p>Total Harga</p>
-                    <p>Rp. 11.000</p>
-                </div>
-                <div class="row">
-                    <p>Biaya Ongkir</p>
-                    <p>Rp. 11.000</p>
-                </div>
-                <hr>
-
-                <div class="row">
-                    <p>Total Tagihan</p>
-                    <p>Rp. xxx</p>
-                </div>
-
-                <button type="submit"><a href="#">Checkout</a></button>
+                <h2 class="black bold">Checkout</h2>
+    
+                <form action="">
+                    <p class="black bold">Alamat Pengiriman</p>
+    
+                    <div class="col">
+                        <p class="list black bold">Budi Setiawan</p>
+                        <p class="list black">082156891821</p>
+                        <p class="list grey">Jalan Soekarno - Hatta No. 87 Malang <br>
+                            Sumbersari, Kota Malang, 65145</p>
+                    </div>
+    
+                    <hr>
+    
+                    <div class="col">
+                        <p class="list black bold">Nama Toko</p>
+                        <p class="grey">Jember Selatan</p>
+                    </div>
+    
+                    <div class="row">
+                        <img src="../img/beras1.png" class="box imageBox" width="100px" height="120px">
+                        <div class="col" style="margin-left: 30px;">
+                            <p class="black bold" style="font-size: 20px;">Beras</p>
+                            <p><b class="green bold">Harga produk</b><i> / per</i></p>
+                            <p class="grey">2 barang (10kg)</p>
+                        </div>
+                    </div>
+                    <hr>
+    
+                </form>
             </div>
-            
+    
+            <div class="col">
+                <p class="list black bold">Pilih Durasi</p>
+                <select class="box inputShort bggreen white bold">
+                    <option class="bggreen grey">Pengiriman</option>
+                    <option class="bggreen white">JNE</option>
+                    <option class="bggreen white">JNT</option>
+                    <option class="bggreen white">Tiki</option>
+                </select>
+    
+                <p class="list black bold">Pilih Metode</p>
+                <select class="box inputShort bggreen white bold">
+                    <option class="bggreen grey">Pembayaran</option>
+                    <option class="bggreen white">Kartu kredit/debit</option>
+                    <option class="bggreen white">Virtual Account</option>
+                    <option class="bggreen white">Gopay</option>
+                    <option class="bggreen white">Ovo</option>
+                </select>
+    
+                <div class="payCard box bgwhite">
+                    <p class="balck bold">Ringkasan belanja</p>
+                    <div class="row between">
+                        <p class="black">Total Harga</p>
+                        <p class="grey">Rp. 11.000</p>
+                    </div>
+                    <div class="row between">
+                        <p class="black">Biaya Ongkir</p>
+                        <p class="grey">Rp. 11.000</p>
+                    </div>
+                    <hr>
+    
+                    <div class="row between">
+                        <p class="black bold" style="font-size: 20px;">Total Tagihan</p>
+                        <p class="yellow bold" style="font-size: 20px;">Rp. 22.000</p>
+                    </div>
+    
+                    <a href="../halaman-utama/halaman-utama.html"><button type="submit" class="button box bgyellow white bold" style="width: 100%;">Checkout</button></a>
+                </div>
+                
+            </div>
         </div>
     </div>
+    
 
     <footer class="box bgwhite grey">
         &#169 copyright 2020

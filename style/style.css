@@ -341,7 +341,7 @@ select {
 }
 .payCard {
     width: 350px;
-    margin: 40px 0 0 55px;
+    margin-top: 30px;
     padding: 20px;
     height: fit-content;
 }
