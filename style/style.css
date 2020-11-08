@@ -76,8 +76,12 @@ a {
     margin-top: 60px;
 }
 .button {
+    font-size: 20px;
     padding: 10px 70px;
     margin: 8px 0;
+}
+hr {
+    width: 100%;
 }
 
 /* flex */
@@ -104,6 +108,9 @@ a {
 .algCenter {
     align-items: center;
 }
+.list {
+    margin-bottom: 10px;
+}
 
 /* color */
 .bold {
@@ -115,6 +122,9 @@ a {
 }
 .green {
     color: #88D498;
+}
+.yellow {
+    color: #F7D64B;
 }
 .grey {
     color: #B8B8B8;
@@ -329,6 +339,12 @@ select {
     padding: 10px 35px;
     margin-bottom: 50px;
 }
+.payCard {
+    width: 350px;
+    margin: 40px 0 0 55px;
+    padding: 20px;
+    height: fit-content;
+}
 
 /* image form */
 .imageLabel {
@@ -353,6 +369,25 @@ select {
 .textImage {
     margin: 10px 140px;
 }
+.imageBox {
+    padding: 10px;
+}
+
+/* counter */
+.butCount {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    padding: 12px;
+    font-weight: 900;
+}
+.inputCount {
+    width: 40px;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
 /* halaman-artikel-rincian */
 .box_artikel {
     margin-top: 5%;
