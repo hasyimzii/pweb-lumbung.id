@@ -31,57 +31,71 @@
         </div>
     </nav><br>
 
-    <h2>Tambah Produk</h2>
-    <form action="desc-penjual.html">
-        <div class="col">
-            <p>Upload Produk</p>
-            <p>Format gambar .jpg .jpeg .png dan ukuran minimum 300 x 300px (Untuk gambar optimal gunakan ukuran minimum 700 x 700 px)</p>
-    
-            <div class="row">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-    
-            <button type="submit">+ Pilih Gambar Produk</button>
-        </div>
-    
-        <div class="col">
-            <p>Informasi Produk</p>
-            <div class="row">
-                <p>Nama Produk</p>
-                <input type="text">
-            </div>
-            <div class="row">
-                <p>Harga Satuan (Rp)</p>
-                <input type="text">
-            </div>
-            <div class="row">
-                <p>Berat (kg)</p>
-                <input type="text">
-            </div>
-            <div class="row">
-                <p>Kategori Produk</p>
-                <select class="box inputShort bgwhite grey">
-                    <option class="grey">Pilih kategori</option>
-                    <option class="black">Kesehatan</option>
-                    <option class="black">Pertanian</option>
-                    <option class="black">Peternakan</option>
-                </select>
-            </div>
-            <div class="row">
-                <p>Deskripsi Produk</p>
-                <textarea></textarea>
-            </div>
-        </div>
-    
-        <div class="row">
-            <a href="desc-penjual.html"><button>Cancel</button></a>
-            <button type="submit">Simpan</button>
-        </div>
-    </form>
+    <div class="container">
+        <h2 class="black bold">Tambah Produk</h2>
 
+        <form action="desc-penjual.html">
+            <div class="card box bgwhite">
+                <div class="col">
+                    <p class="list black bold">Upload Produk</p>
+                    <i class="list grey">Format gambar .jpg .jpeg .png dan ukuran minimum 300 x 300px (Untuk gambar optimal gunakan ukuran minimum 700 x 700 px)</i>
+            
+                    <div class="row between" style="margin: 30px ;">
+                        <div class="box bgwhite" style="width: 200px; height: 200px;"></div>
+                        <div class="box bgwhite" style="width: 200px; height: 200px;"></div>
+                        <div class="box bgwhite" style="width: 200px; height: 200px;"></div>
+                        <div class="box bgwhite" style="width: 200px; height: 200px;"></div>
+                    </div>
+                    
+                    <div class="submitImage box bgwhite" style="margin-top: 20px; width: 100%;">
+                        <input type="file" name="file" class="fileImage" style="width: 100%;">
+                        <label for="file" class="textImage grey bold" style="margin: 0 43%;">+ Pilih Gambar Produk</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card box bgwhite">
+                <div class="col">
+                    <p class="black bold">Informasi Produk</p>
+                    <div class="row algCenter between">
+                        <p class="black bold" style="margin: 5px 0;">Nama Produk</p>
+                        <input type="text" class="inputText box bgwhite" style="width: 900px;">
+                    </div>
+                    <div class="row algCenter between">
+                        <p class="black bold" style="margin: 5px 0;">Harga Satuan (Rp)</p>
+                        <input type="text" class="inputText box bgwhite" style="width: 900px;">
+                    </div>
+                    <div class="row algCenter between">
+                        <p class="black bold" style="margin: 5px 0;">Berat (Kg)</p>
+                        <input type="text" class="inputText box bgwhite" style="width: 900px;">
+                    </div>
+                    <div class="row algCenter">
+                        <p class="black bold" style="margin: 5px 0;">Kategori Produk</p>
+                        <select class="box inputShort bgwhite grey" style="margin-left: 210px;">
+                            <option class="grey">Pilih kategori</option>
+                            <option class="black">Kesehatan</option>
+                            <option class="black">Pertanian</option>
+                            <option class="black">Peternakan</option>
+                        </select>
+                    </div>
+                    <div class="row between">
+                        <p class="black bold">Deskripsi Produk</p>
+                        <textarea class="desc box" style="width: 880px;"></textarea>
+                    </div>
+                </div>
+            
+                <div class="row algCenter" style="float: right; margin-top: 30px;">
+                    <!-- cancel -->
+                    <a href="halaman-admin-artikel.html"><button class="button box bgwhite grey" style="margin-right: 20px;">Cancel</button></a>
+                    <!-- submit -->
+                    <button type="submit" class="button box bggreen white">Publish</button>
+                </div>
+
+            </div>
+                
+            </form>
+    </div>
+    
     <footer class="box bgwhite grey">
         &#169 copyright 2020
     </footer>
