@@ -473,14 +473,14 @@ select {
 }
 
 /* on */
-a#on {
+#on {
     background-color: #88D498;
     color: white;
     border: none;
 }
 
- /* layout pengaturan penjual*/}
- .form {
+ /* layout pengaturan penjual*/
+.form {
     margin: auto;
 }
 .container-a {
